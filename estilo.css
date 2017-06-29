@@ -1,0 +1,599 @@
+body{
+	padding: 0;
+	margin:0;
+	background: url(img/textura.jpg) center center fixed;
+	background-size: cover;
+}
+header{
+	width: 100%;
+	background-color: #C1272D;
+	height: 55px;
+}
+.bg{
+background: url(img/bg.jpg) center center;
+background-size: cover;
+width: 100%;
+height: 800px;
+}
+.caixa{
+	width: 900px;
+	height: 600px;
+	margin: 0 auto;
+	padding-right: 350px; 
+}
+h2{
+	margin-left:  490px;
+	font-size: 30px;
+}
+.organizadores{
+	float:left;
+	margin-left: 250px;
+	padding-right: 150px;
+}
+.rafael{
+	width: 240px;
+	height: 240px;
+	margin-bottom: -25px;
+}
+.leticia{
+	width: 240px;
+	height: 240px;
+}
+.texto{
+	width: 50px;
+	height: 50px;
+	margin-left: 100px;
+	margin-top: 40px;
+}
+.texto2{
+	width: 50px;
+	height: 50px;
+	margin-left: 750px;
+}
+.face{
+	width: 50px;
+	height: 50px;
+}
+/*ocultando botao checkbox*/
+#btn-menu{
+	display: none;
+}
+/*ocultando o icone menu*/
+header label{
+	display: none;
+	width: 30px;
+	height: 30px;
+	padding: 20px;
+}
+/*quando passar o mouse*/
+header label:hover{
+	cursor: pointer;
+}
+/*formatando lista*/
+.menu ul{
+	margin: 0px;
+	padding:0px;
+	list-style: none;
+	display: flex;
+	left: 0px;
+
+}
+/*quando passar o mouse*/
+.menu li:hover{
+	background-color: ;
+}
+
+/*formatando links */
+.menu li a{
+	display: block;
+	margin-left:50px;
+	margin-top: 15px;
+	text-decoration: none;
+	color: black;
+}
+ .menu a:hover{
+	color:white;
+}
+.logo{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-left:50px;
+}
+.logonome{
+	margin-left:30px;
+	color: white;
+	width:80px;
+	float: left;
+}
+.campanha{
+	width: 700px;
+	height: 500px;
+	margin-left: 550px;
+	margin-top: 30px;
+}
+.camp{
+	margin-left: 850px;
+	margin-top: -80px;
+}
+.texto3{
+	margin-left: 400px;
+	font-size: 20px;
+}
+.cartaz{
+	margin-left: 380px;
+}
+.social{
+	margin-left: 850px;
+	margin-top: 40px;
+}
+.face1{
+	width: 50px;
+	height: 50px;
+}
+.google1{
+	width: 50px;
+	height: 50px;
+}
+.twitter1{
+	width: 50px;
+	height: 50px;
+}
+.contact{
+	background-color: darkred;
+	margin-left: 590px;
+	width: 700px;
+	height: 400px;
+	margin-top: 70px;
+}
+fieldset{
+	border:0;
+	margin-left: 230px;
+}
+.text-center{
+	font-size: 30px;
+	background-color: darkred;
+	margin-left: 80px;
+}
+.col-md-4{
+	margin-bottom: -5px;
+}
+.btn-block{
+		width: 70px;
+		height: 30px;
+		margin-left: 185px;
+		margin-top: 5px;
+	}
+.form-control{
+	margin-top: -15px;
+	width: 250px;
+	height: 20px;
+}
+.email{
+	margin-top: 10px;
+}
+.comentario{
+	margin-top: 10px;
+	color: black;
+}
+textarea{
+	width: 250px;
+	height: 200px;
+	resize: none;
+	border-radius: 5px;
+	color: black;
+}
+li:first-child{
+	margin-left: 480px;
+}
+.grafico{
+	width: 650px;
+	height: 500px;
+	margin-left: 630px;
+	margin-top: 100px; 
+}
+/*class para a letra*/
+.esta{
+	font-size: 20px;
+	margin-left: 380px;
+	margin-top: 40px;
+	margin-bottom: -100px;
+}
+/*class para deixar lado a lado*/
+.animais{
+	margin-left: 500px;
+	padding-right: 150px;
+
+}
+.animal{
+	width: 1400px;
+	height: 180px;
+	margin: 0 auto fixed;
+	margin-left: 280px;
+	 
+}
+.osso{
+	height: 77px;
+	width: 80px;
+}
+.ossos{
+	float: left;
+}
+.cao{
+	height: 77px;
+	width: 80px;
+	padding-left: 50px;
+}
+/*caixa*/
+.caos{
+ 	margin-bottom: 100px;
+ 	float: left;
+}
+.pata{
+	height: 77px;
+	width: 80px;
+	padding-left: 50px;
+}
+/*caixa*/
+.pata:hover{
+	opacity: 0.5;
+}
+.cao:hover{
+	opacity: 0.5;
+}
+.osso:hover{
+	opacity: 0.5;
+}
+.imagens{
+	margin-left: 35%;
+	margin-top: 50px;
+}
+.galeria{
+	margin-left: -250px;
+}
+.genero{
+	margin-left: 440px;
+	margin-top: 10px;
+}
+.unica1{
+	margin-left: 90px;
+	font-family: 'Anton', sans-serif;
+	font-size: 19px;
+	color: black;
+}
+.responde{
+	margin-left: 880px;
+}
+.opiniao{
+	margin-left: 880px;
+}
+.perguntas{
+	margin-left: 450px;
+}
+.pergunta{
+	margin-left: 420px;
+}
+.botao{
+	margin-left: 1420px;
+}
+.tudo{
+	background: url(img/bg02.jpg) center center;
+	background-size: cover;
+	width: 100%;
+	height: 1630px;
+}
+input{
+	font-family: 'Anton', sans-serif;
+	font-size: 19px;
+	color: black;
+}
+@media (max-width: 768px) {
+
+	header label{
+		display: block;
+		background-color: red;
+	}
+	header{
+		background-color: red;
+	}
+	
+	.logo{
+		display: none;
+	}
+	.logonome{
+		display: none;
+		margin:-60px;
+	}
+	.bg{
+		background: url(img/bg.jpg) center center;
+		background-size: cover;
+		width: 71%;
+		height: 500px;
+	}
+	.caixa{
+		width: 50%;
+		height: 500px;
+		margin: 0 auto;
+		padding-right: 350px; 
+	}
+	h2{
+		margin-left: 100px;
+		font-size: 30px;
+	}
+	.organizadores{
+		margin-left: 80px;
+		padding-right: 80px;
+	}
+	.rafael{
+		width: 150px;
+		height: 150px;
+		margin-bottom: -45px;
+	}
+	.leticia{
+		width: 150px;
+		height: 150px;
+		margin-top: 130px;
+		margin-left: 80px;
+	}
+	.texto{
+		width: 50px;
+		height: 50px;
+		margin-left: 40px;
+		margin-top: 80px;
+	}
+	.texto2{
+		width: 50px;
+		height: 50px;
+		margin-left: 130px;
+		margin-bottom: -80px;
+	}
+	.face{
+		width: 50px;
+		height: 50px;
+	}
+	.menu{
+		position: absolute;
+		width: 30%;
+		margin-left: -30%;
+		transition: all 0.5s;
+		background-color: yellow;
+	}
+	.menu ul{
+		flex-direction: column;
+		padding-left:10px;
+	}
+	.menu li{
+	}
+	#btn-menu:checked~.menu{
+		margin: 0;
+	}
+	li:first-child{
+	margin-left: 0;
+	}
+	.campanha{
+		width: 315px;
+		height: 250px;
+		margin-left: 30px;
+		margin-top: 4px;
+	}
+	.camp{
+		margin-top: 250px;
+		margin-left: 120px;
+	}
+	.texto3{
+		width: 350px;
+		margin-left: 20px;
+		margin-top: 25px;
+		font-size: 15px;
+	}
+	.cartaz{
+		margin-left: 30px;
+	}
+	.contact{
+		background-color: darkred;
+		margin-left: 30px;
+		width: 300px;
+		height: 300px;
+		margin-top: 20px;
+	}
+	fieldset{
+		border:0;
+		/*margin-left: 230px;*/
+	}
+	.text-center{
+		font-size: 30px;
+		background-color: darkred;
+		margin-left: -140px;
+	}
+	.col-md-4{
+		margin-left: -230px;
+		margin-bottom: -5px;
+	}
+	.btn-block{
+		width: 70px;
+		height: 30px;
+		margin-left: 185px;
+		margin-bottom: 50px;
+		border: 1px solid #ccc;
+	}
+	.form-control{
+		margin-top: -15px;
+		width: 250px;
+		height: 20px;
+	}
+	.email{
+		margin-top: 10px;
+	}
+	.comentario{
+		margin-top: 10px;
+	}
+	textarea{
+		width: 250px;
+		height: 80px;
+		resize: none;
+		border-radius: 5px;
+	}
+	.grafico{
+		width: 580px;
+		height: 480px;
+		margin-left: 100px;
+		margin-top: 200px; 
+	}
+	/*class para a letra*/
+	.esta{
+		font-size: 20px;
+		margin-left: 220px;
+		/*margin-top: 120px;*/
+		margin-bottom: -100px;
+	}	
+	/*class para deixar lado a lado*/
+	.animais{
+		margin-left: 250px;
+		padding-right: 150px;
+	}
+	.animal{
+		width: 800px;
+		height: 150px;
+		margin: 0 auto;
+	}
+	.osso{
+		height: 57px;
+		width: 60px;
+	}
+	.ossos{
+		float: left;
+	}
+	.cao{
+		height: 57px;
+		width: 60px;
+		padding-left: 50px;
+	}
+	/*caixa*/
+	.caos{
+ 		margin-bottom: 100px;
+ 		float: left;
+	}
+	.pata{
+		height: 57px;
+		width: 60px;
+		padding-left: 50px;
+	}
+	/*caixa*/
+	.pata:hover{
+		opacity: 0.5;
+	}
+	.cao:hover{
+		opacity: 0.5;
+	}
+	.osso:hover{
+		opacity: 0.5;
+	}
+	.imagens{
+		margin-left: 10%;
+		margin-top: 50px;
+	}
+	.galeria{
+		margin-left: 160px;
+	}
+	.genero{
+		margin-left: 15px;
+		margin-top: 10px;
+	}
+	.unica1{
+		margin-left: 90px;
+		font-family: 'Anton', sans-serif;
+		font-size: 19px;
+		color: black;
+	}
+	.responde{
+		margin-left: 380px;
+		font-size: 15px;
+	}
+	.opiniao{
+		margin-left: 380px;
+	}
+	.pergunta{
+		margin-left: -120px;
+	}
+	.indentifique{
+		margin-left: -317px;
+	}
+	.telefone{
+		margin-left: -317px;
+	}
+	.mail{
+		margin-left: -317px; 
+	}
+	.email{
+		margin-left: 13px;
+	}
+	.respostas{
+		margin-left:-100px;
+	}
+	.botao{
+		width: 100px;
+		height: 40px;
+		margin-left: 300px;
+		font-size: 20px;
+	}
+	legend{
+		margin-left: 330px;
+	}
+	.tudo{
+		background: url(img/bg02.jpg) center center;
+		background-size: cover;
+		width: 100%;
+		height: 1710px;
+		margin-top: -30px;
+	}
+	.questionario{
+		margin-left: 15px;
+		font-size: 20px;
+	}
+	.form-group{
+		margin-top: 30px;
+		font-family: 'Anton', sans-serif;
+		font-size: 5px;
+		color: white;
+		margin-left: -320px;
+	}
+	.date{
+		width: 150px;
+		height: 20px;
+	}
+	#opcao{
+		font-size: 5px;
+		height: 17px;
+		margin-left: 440px;
+		margin-top: 10px;
+		border: 2px solid blue;
+	}
+	.perg{
+		margin-left: 330px;
+	}
+	.quest{
+		font-size: 10px;
+	}
+	.social{
+		margin-left: 300px;
+		margin-top: 35px;
+		width: 200px;
+	}
+	.face1{
+		width: 35px;
+		height: 35px;
+		float:left;
+		padding-left: 20px;
+		padding-right: 10px;
+	}
+	.google1{
+		width: 35px;
+		height: 35px;
+		float:left;
+		padding-right: 10px;
+	}
+	.twitter1{
+		width: 35px;
+		height: 35px;
+	}
+}
